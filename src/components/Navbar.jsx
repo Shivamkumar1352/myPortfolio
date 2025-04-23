@@ -10,8 +10,8 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = 'https://drive.google.com/file/d/1Js6gIuARIJI7r_Q7XiVV2Lgq1xsMci-i/view?usp=sharing';
-    window.open(resumeUrl, '_blank');
+    const resumeUrl = '/Resume.pdf';
+    window.open(resumeUrl);
   };
 
   useEffect(() => {
