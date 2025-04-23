@@ -29,7 +29,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Education",
   },
   {
     id: "contact",
@@ -51,61 +51,60 @@ export const technologies = [
   { name: "Rect JS", icon: reactjs },
   { name: "Tailwind CSS", icon: tailwind },
   { name: "Node JS", icon: nodejs },
-  { name: "Three JS", icon: threejs },
   { name: "git", icon: git },
 ];
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
+    title: "Lovely Professional University",
+    company_name: "Punjab, India",
     icon: eduskill,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "2022 - 2026",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Pursuing Bachelor of Technology in Computer Science and Engineering.",
+      "Achieved a CGPA of 8.22 while engaging in both academic and practical projects.",
+      "Built multiple full-stack web applications using MERN stack, showcasing real-world application skills.",
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
-    icon: mathwork,
+    title: "Himalayan International School",
+    company_name: "Bihar, India",
+    icon: eduskill,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "2020-2021",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
+      "Completed Intermediate (Class XII) with a strong academic record.",
+      "Focused on foundational subjects crucial for Computer Science studies.",
     ],
   },
   {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
+    title: "Dr. D.Ram D.A.V. Public School",
+    company_name: "Bihar, India",
+    icon: eduskill,
     iconBg: "#161329",
-    date: "June 2023 - July 2023",
+    date: "2018-2019",
     points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+      "Completed High School (Class X), building a solid base in Science and Mathematics.",
+      "Developed early problem-solving and analytical thinking skills."
     ],
   },
 ];
 
+
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Online Cart System",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "Web-based platform that allows users to add items to cart with proper razorpay payment gateway",
     tags: [
       { name: "Javascript", color: "blue-text-gradient" },
-      { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "Laravel", color: "green-text-gradient" },
+      { name: "SQL", color: "pink-text-gradient" },
+      { name: "Razorpay API", color: "yellow-text-gradient" },
     ],
     image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    source_code_link: "https://github.com/Shivamkumar1352/OnlineShoppingCart",
   },
   {
     name: "Terminal Like Portfolio Website",

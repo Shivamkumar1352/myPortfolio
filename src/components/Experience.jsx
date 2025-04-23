@@ -54,9 +54,6 @@ const ExperienceCard = ({ experience }) => (
 const Experience = () => (
   <>
     <motion.div variants={textVariant()}>
-      <p className={`${styles.sectionSubText} text-center`}>
-        What I have done so far
-      </p>
       <h2 className={`${styles.sectionHeadText} text-center`}>Education</h2>
     </motion.div>
 
