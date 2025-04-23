@@ -107,63 +107,65 @@ export const projects = [
     source_code_link: "https://github.com/Shivamkumar1352/OnlineShoppingCart",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "Apartment Visitor Management",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "This project is a digital Visitor Management System designed to securely store and manage visitor data for easy accessibility.",
     tags: [
-      { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
-      { name: "Javascript", color: "pink-text-gradient" },
+      { name: "PHP", color: "blue-text-gradient" },
+      { name: "Bootstrap", color: "green-text-gradient" },
+      { name: "MySql", color: "pink-text-gradient" },
     ],
     image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
+    source_code_link: "https://github.com/Shivamkumar1352/AVMS",
   },
   {
-    name: "Mental Health Fitness Tracker",
+    name: "Notes taking application",
     description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
+      "A Notes taking application designed to help users organize their notes effectively. A website based on CRUD operations making notes on an online portal.",
     tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
+      { name: "React", color: "blue-text-gradient" },
+      { name: "NodeJs", color: "green-text-gradient" },
+      { name: "MongoDb", color: "pink-text-gradient" },
     ],
     image: mhft,
     source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
+      "https://github.com/Shivamkumar1352/Notes.me",
   },
   {
-    name: "PayloadMaster",
+    name: "Auction Hunter",
     description:
-      "Tool to automate payload creation using the Metasploit framework",
+      "A web application for real timeauction with auctioner and bidder dashboard",
     tags: [
-      { name: "shell", color: "blue-text-gradient" },
+      { name: "React", color: "blue-text-gradient" },
+      { name: "MongoDb", color: "blue-text-gradient" },
+      { name: "Express", color: "blue-text-gradient" },
     ],
     image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
+    source_code_link: "https://github.com/Shivamkumar1352/AuctionHunter",
   },
   {
-    name: "CompileVortex",
+    name: "Buy-sell",
     description:
-      "Tool to automate payload creation using the Metasploit framework",
+      "An E-commerce website for seller and buyer at negotiable price",
     tags: [
       { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "Node.js", color: "pink-text-gradient" },
     ],
     image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
+    source_code_link: "https://github.com/Shivamkumar1352/Buy-Sell",
   },
   {
-    name: "Sketcher",
+    name: "Chat application",
     description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
+      "A real time chat application for two users to interact with each other in real time.",
     tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
+      { name: "React", color: "blue-text-gradient" },
+      { name: "Javascript", color: "green-text-gradient" },
+      { name: "NodeJs", color: "pink-text-gradient" },
     ],
 
     image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+    source_code_link: "https://github.com/Shivamkumar1352/Realtime-NodeJs-Chat-App-MySpace",
   },
 ];

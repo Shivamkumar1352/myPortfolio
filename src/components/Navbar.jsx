@@ -4,12 +4,13 @@ import { close, logo, menu } from '../assets';
 import { navLinks } from '../constants';
 import { styles } from '../styles';
 
+
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = '/Resume.pdf';
+    const resumeUrl = './myPortfolio/Resume.pdf';
     window.open(resumeUrl);
   };
 
