@@ -21,6 +21,9 @@ import {
   CompileVortex,
   eduskill,
 } from "../assets";
+import social from '../assets/SocialNetworks.jpg';
+import cipher from '../assets/cipher.jpg';
+import coursera from '../assets/coursera.jpg';
 
 export const navLinks = [
   {
@@ -169,3 +172,24 @@ export const projects = [
     source_code_link: "https://github.com/Shivamkumar1352/Realtime-NodeJs-Chat-App-MySpace",
   },
 ];
+
+const certificates = [
+  {
+    name: "Social Networks",
+    image: social,
+    link: "https://drive.google.com/file/d/1YvwKLpkq3DVnSTEKRzSye7c4HFIuOsfH/view?usp=drive_link",
+  },
+  {
+    name: "Full-stack using mern",
+    image: cipher,
+    link: "https://www.cipherschools.com/certificate/preview?id=66a76d5ed15c5abc1ea65ef9",
+  },
+  {
+    name: "Server side javascript",
+    image: coursera,
+    link: "https://coursera.org/share/4847094832d924ff05e639edcf815c5a",
+  },
+  // Add more certificates here
+];
+
+export { certificates };
